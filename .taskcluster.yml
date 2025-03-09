@@ -84,6 +84,10 @@ tasks:
               $switch:
                   'tasks_for[:19] == "github-pull-request"': ${event.action}
                   $default: 'UNDEFINED'
+          targetTasksMethod:
+            $switch:
+                  'tasks_for == "github-issue-comment"': {$eval: 'split(event.taskcluster_comment, " ")[0]'}
+                  $default: ['default']
           releaseAction:
               $if: 'tasks_for == "github-release"'
               then: ${event.action}
@@ -265,7 +269,7 @@ tasks:
                                         then: '${cron.quoted_args}'
                                         else:
                                             $if: 'tasks_for == "github-issue-comment"'
-                                            then: '--target-tasks-method=${event.taskcluster_comment}'
+                                            then: '--target-tasks-method=${targetTasksMethod}'
                                             else: ''
                                 in:
                                     $if: 'tasks_for in ["action", "pr-action"]'
