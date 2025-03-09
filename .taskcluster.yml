@@ -87,7 +87,7 @@ tasks:
           targetTasksMethod:
             $switch:
                   'tasks_for == "github-issue-comment"': {$eval: 'split(event.taskcluster_comment, " ")[0]'}
-                  $default: ['default']
+                  $default: 'default'
           releaseAction:
               $if: 'tasks_for == "github-release"'
               then: ${event.action}
