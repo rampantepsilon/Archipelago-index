@@ -76,7 +76,7 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
     if "TRY_CONFIG" in os.environ:
-        return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"])
+        return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 
