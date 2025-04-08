@@ -251,8 +251,8 @@
 "4.5.1" = "adafe7e2e2c4b3d8d37dee21bd3a94e75459699754ed271f387392517e767324"
 "5.0.0" = "4e90c097535cebf309c6529bc023b90e68f08492b944083d73e0bc90d268c240"
 
-[manual_deadbydaylight-killer-c34_nivomi]
-"0.0.5" = "3c55d15caf6ad6a1c48779814b9bf7f9ecef8abaaabef9ae1e3e0a7c164983f0"
+[manual_deadbydaylight-killer-c35_nivomi]
+"0.0.6" = "663e77e549c9e9155e1b6056a7e9fc8c3808f42fa1da93fa6bb292d99448d6db"
 
 [manual_diddykongracing_decoytroy]
 "0.0.1" = "a1ae9a26d2fadd6bc8d94f7e25f60fe9679e969b12025260082f1b32e9a107fd"
@@ -536,7 +536,7 @@
 [tloz_ooa]
 "0.2.5+ishigh" = "b049eceb9ad8d3b5226cd00734864979e33976b4dc4fbf8925da311d24102db0"
 "0.3.2" = "c9bb597a25f04c3cbee31d5f90ac0452312efc87c11d470cdd0dcb53e9d9e486"
-"0.4.0" = "561fc992242b3af1e0008dabd630c6b929246ca3c9db1484fe3e21ab27023c87"
+"0.4.1" = "8d2fbf2994a7878ab2abfd39114a46bdf490505010fd28beffe4a30459b752cd"
 
 [tloz_oos]
 "7.2.2+ishigh-2" = "762e4a7eea4bbc93925c03f63ba2772886ecf99b6aec2e7313ddbfdf4689f6d1"
