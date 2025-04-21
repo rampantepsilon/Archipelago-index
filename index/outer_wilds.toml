@@ -9,3 +9,4 @@ default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases
 "0.3.11" = {}
 "0.3.9" = {}
 "0.3.6" = {}
+"3.7.1" = {url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.7.1/outer_wilds.apworld"}
