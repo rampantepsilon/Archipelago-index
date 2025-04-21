@@ -5,3 +5,4 @@ default_url = "https://github.com/Rurusachi/Archipelago/releases/download/FFTA2_
 [versions]
 "0.0.8" = { url = "https://github.com/Rurusachi/Archipelago/releases/download/0.0.8/ffta2.apworld" }
 "0.0.9" = {}
+"1.1.1" = {}
