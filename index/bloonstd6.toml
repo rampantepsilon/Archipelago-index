@@ -9,3 +9,4 @@ disabled = true
 [versions]
 "0.2.3" = {}
 "0.3.3" = {}
+"3.3.0" = {url = "https://github.com/GamingInfinite/Archipelago/releases/download/0.3.3.0/bloonstd6.apworld"}
