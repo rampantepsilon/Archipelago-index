@@ -4,8 +4,9 @@
 - In the `toml` file, add a name, `name = "A Link to the Past`. That name **MUST** match the world name. If you're unsure what that means, it's the name used in your YAML.
 - If the `name` field is nondescriptive or "ugly", add a `display_name` field with a pretty name. This especially useful for manuals where the name is `Manual_{game}_{author}`. In that case, add a `display_name` with `"Manual: {game}"`.
 - Add a `home` field if applicable. In order of preference, it should contain a link to the discord thread, the github repo, any other webpage where the apworld might live. If there's none (i.e you made this apworld and it's not publically available anywhere else, omit the field).
+- If the world needs to be tagged specifically, add a `tags = [...]`, available tags are: `ad` to mark the world as being from the after dark server.
 - Add a `[versions]` section, one version per line. It should look something like this: `"{version}" = { src }`. Read the following sections to understand what that means.
-  
+
 ## Version
 
 Each version **MUST** be valid [semver](https://semver.org/). It doesn't matter if the apworld doesn't respect semver or doesn't even have a version that would be valid. We use this to make sure versions can be ordered.
