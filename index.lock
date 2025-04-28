@@ -606,6 +606,7 @@
 
 [wordipelago]
 "0.8.4" = "f5993bf58d0c0749887cdffe4b5a0c429b8f15afad191a716653b1249ca5b5e2"
+"0.8.5" = "a31a7efcd4f4af164be8446c78eb1e55a718dc67ddc1f10a9c581e66fcf9bb4e"
 
 [x2wotc]
 "0.7.5-alpha" = "44499d9a20e2b7acd46148f8f8a2e31530c66f0febb4c4fd4dbbcc84b9f2676f"
