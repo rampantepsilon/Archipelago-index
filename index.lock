@@ -77,6 +77,7 @@
 
 [celeste_open_world]
 "1.0.0" = "26bf721a20d5eb01b7f1a987fdd0d97981f2d490b5a7647ec113db6a82bb8d42"
+"1.0.1" = "382b297aaad2736848947b829a75d6a01cea528a9dbdc8605fbcb1028ee542a0"
 
 [checksmate]
 "0.2.7" = "7fe71f791e8b455ecafe0646f4fda1bd3def2888e4459dc673fa1876db9e2e50"
@@ -609,6 +610,8 @@
 
 [wordipelago]
 "0.8.4" = "f5993bf58d0c0749887cdffe4b5a0c429b8f15afad191a716653b1249ca5b5e2"
+"0.8.5" = "a31a7efcd4f4af164be8446c78eb1e55a718dc67ddc1f10a9c581e66fcf9bb4e"
+"0.8.6" = "8dec878f139b929bb94fdbf90b77d7d08a3eda39f0f046ac0ee91b11f9578415"
 
 [x2wotc]
 "0.7.5-alpha" = "44499d9a20e2b7acd46148f8f8a2e31530c66f0febb4c4fd4dbbcc84b9f2676f"
