@@ -27,7 +27,6 @@
 
 [apeescape]
 "0.8.2" = "c9c9d40afd4642c6e7e7fe47c06f3448fc0eb6a8e56775d5bc0ba0bda54c450e"
-"0.8.4" = "5d4ee1441e91a9a4f76df41abcbb71a59e2f259e02ec9dd59d5031f81a270287"
 
 [apgo]
 "0.5.0" = "54494fb34b7f25169747ecf567cca998d946cb0a5bf626fd342c5fbe897c047e"
@@ -291,6 +290,9 @@
 [manual_jumpultimatestars_pizzaking405]
 "3.5.0" = "740c1271d7985b989b63db63329ee56946ba389f1df6273831c6923ef4cd6e7c"
 "4.0.0" = "eface57a3975f398ed7dc24aa448810fef9299148c0da0f44da96b96df5f8609"
+
+[manual_legostarwarsthecompletesaga_mysteryem]
+"0.8.0" = "c0d4850d98c08eab4649dccb798b1d9dbbcff3bd8436e24cfa989a8ca1e6ccc4"
 
 [manual_mariokartds_xanderoni]
 "0.0.2" = "473940c6b72d6946779772650f69c4879e70aefe834649c97a113c1e7d3ecdbc"
