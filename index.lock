@@ -703,6 +703,7 @@
 
 [x2wotc]
 "0.7.5-alpha" = "44499d9a20e2b7acd46148f8f8a2e31530c66f0febb4c4fd4dbbcc84b9f2676f"
+"0.9.1-beta" = "d0f24f18ccb75c6df403ecf514b67c12fba6eb3cd61afa609dcafb9722b5d9c4"
 
 [yachtdice]
 "2.2.2-testing" = "46802b787e9dafa6d9226577e91ebd57d387581838eee35938947ad7381c516c"
