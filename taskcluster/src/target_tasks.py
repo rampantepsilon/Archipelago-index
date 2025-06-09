@@ -11,9 +11,9 @@ DIFF_INDEX_PATH = "ap.archipelago-index.index.pr"
 
 
 def _filter_for_pr(tasks, force=[]):
-    pr_number = os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER")
+    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
     if pr_number is None:
-        print("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER missing, returning empty task set")
+        print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
         return []
 
     try:

@@ -5,7 +5,7 @@ transforms = TransformSequence()
 
 @transforms.add
 def generate_tasks(config, tasks):
-    pr_number = os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER")
+    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
     if pr_number is None:
         yield from tasks
         return
