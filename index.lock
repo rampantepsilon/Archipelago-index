@@ -646,6 +646,9 @@
 [star_fox_64]
 "0.4.1" = "6afffee141a3c4e9c1656de90c57af3c2ee926591cb24c6fa858168f5ad8e51c"
 
+[superjunkoid]
+"0.1.10" = "7e747eac28bac6911db0b440f346eb27ffa59a8813f6fee7d9db413da7baee76"
+
 [swr]
 "0.6.2" = "48597160b3d9a6d55190f90edf07ccd501610fa4b294e83ffde2bfcf54157530"
 "0.7.0-preview" = "dcd28d81ca4ff79adab2895fdb5c1d1a2c2746cb2e53bf6ce3553bb3dce63af9"
