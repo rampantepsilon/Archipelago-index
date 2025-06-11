@@ -344,6 +344,9 @@
 [manual_mkwii_magnetico]
 "0.0.1+magnetico" = "731b011dd0c6efbcb01851fd8d4653c1a06dd7ae5828aa596e4bb7ac927e80f6"
 
+[manual_mmxlcxchalllenge_pizzaking405]
+"2.1.0" = "51b4f252a29482e077930d5233fceb151f55910ca7156e1a193bc893f39e3b79"
+
 [manual_monsterhunterworld_panic]
 "0.0.2" = "4030433caf12c318ece252fc0771fa713d37957c07e55fdbb3054312a48e512b"
 
@@ -397,9 +400,6 @@
 
 [manual_worldofwarcraftdungeons_chakraa]
 "2025.2.13" = "04a37b652c28a8001f24f35b66f54350051d84e0cabd68d29a5686e48ae4f766"
-
-[manual_xchallengemegamanxlegacycollections_pizzaking405]
-"0.0.1" = "ffa87ecf9d6da926945b230d3973ab1dd376f47ab365d884ed03885cd99d8d28"
 
 [marioland2]
 "0.0.1" = "25df859fed98d595de76b7df2ebf53d6b94d2e1264a1db8bdb1cad14808dc93c"
