@@ -9,6 +9,9 @@ def add_comment_scopes(config, tasks):
     project = config.params['project'].lower()
     for task in tasks:
         scopes = task.setdefault("scopes", [])
-        scopes.append(f"ap:github:action:create-apdiff-comment-on-pr:{pr_number}")
+        if config.kind == "test-report":
+            scopes.append(f"ap:github:action:create-aptest-comment-on-pr:{pr_number}")
+        else:
+            scopes.append(f"ap:github:action:create-apdiff-comment-on-pr:{pr_number}")
         scopes.append(f"ap:github:repo:{project}")
         yield task

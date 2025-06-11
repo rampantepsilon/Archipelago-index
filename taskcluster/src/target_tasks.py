@@ -56,16 +56,16 @@ def diff_target_task(full_task_graph, parameters, graph_config):
 
 
 @register_target_task("test")
-def merge_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test"}])
+def test_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report"}])
 
 
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "publish"}], force=["publish"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], force=["publish"])
 
 @register_target_task("fuzz")
-def merge_target_task(full_task_graph, parameters, graph_config):
+def fuzz_target_task(full_task_graph, parameters, graph_config):
     return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}])
 
 @register_target_task("merge")
