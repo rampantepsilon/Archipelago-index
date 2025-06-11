@@ -24,10 +24,6 @@ kind-dependencies:
 tasks:
   apworld:
     description: Fuzz an apworld
-    scopes:
-      by-tasks-for:
-        github-issue-comment: [github:create-comment:Eijebong/Archipelago-index]
-        default: []
     run:
       using: run-task
       command: >-
