@@ -29,7 +29,6 @@ def _filter_for_pr(tasks, force=[]):
         if not artifact['name'].startswith('public/diffs/'):
             continue
 
-        diff_name = artifact['name'].removeprefix('public/diffs/')
         diff_response = get_artifact(diff_task, artifact['name'])
         if diff_response.status != 200:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
@@ -58,6 +57,11 @@ def diff_target_task(full_task_graph, parameters, graph_config):
 @register_target_task("test")
 def test_target_task(full_task_graph, parameters, graph_config):
     return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report"}])
+
+
+@register_target_task("test-fuzz")
+def test_fuzz_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}])
 
 
 @register_target_task("r+")
