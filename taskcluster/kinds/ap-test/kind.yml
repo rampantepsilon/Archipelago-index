@@ -57,7 +57,7 @@ tasks:
     attributes:
       soft-fetches:
         make-expectations-patch-make-patch:
-          artifact: expectations.patch
+          artifact: public/expectations.patch
           extract: false
           dest: /builds/worker/checkout/vcs
     fetches:
