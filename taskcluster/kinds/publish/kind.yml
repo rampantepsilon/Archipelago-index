@@ -58,6 +58,6 @@ tasks:
         make-expectations-patch:
           artifact: public/expectations.patch
           extract: false
-          dest: /builds/worker/checkout/vcs
+          dest: /builds/worker/checkouts/vcs
     scopes:
       - secrets:get:Archipelago-index
