@@ -67,7 +67,7 @@ def test_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("test-fuzz")
 def test_fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}], parameters)
 
 
 @register_target_task("r+")
