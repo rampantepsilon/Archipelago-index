@@ -5,13 +5,13 @@ FROM ghcr.io/eijebong/archipelago-worker:latest
 # %include-run-task
 COPY --from=apwm /usr/local/bin/apwm /usr/local/bin/apwm
 
-RUN apt update && apt install -y git jq
+RUN apt update && apt install -y git jq zip
 
 # Add worker user
 RUN mkdir -p /builds && \
     useradd -d /builds/worker -s /bin/bash -m worker && \
     mkdir /builds/worker/artifacts && \
-    chown -R worker:worker /builds/worker
+    chown -R worker:worker /builds/worker /ap/archipelago
 
 ENV SHELL=/bin/bash \
     HOME=/builds/worker \
