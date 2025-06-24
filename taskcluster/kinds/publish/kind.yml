@@ -36,16 +36,18 @@ tasks:
         cd $VCS_PATH
         /usr/local/bin/setup-ssh.sh
 
-        if [[ -f expectations.patch ]]; then
-          patch -p1 < expectations.patch
-        fi
-
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
         (git commit -am "Update lockfile" || exit 0)
         export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)"
         /usr/local/bin/merge.sh
         git fetch origin main
         git reset --hard origin/main
+        if [[ -f /tmp/expectations.patch ]]; then
+          patch -p1 < /tmp/expectations.patch
+          git add meta
+          git commit -am "Update expectations"
+        fi
+
         git cherry-pick "${UPDATE_COMMIT}"
         git push repo HEAD:main
     fetches:
@@ -58,6 +60,6 @@ tasks:
         make-expectations-patch-make-patch:
           artifact: public/expectations.patch
           extract: false
-          dest: /builds/worker/checkouts/vcs
+          dest: /tmp
     scopes:
       - secrets:get:Archipelago-index
