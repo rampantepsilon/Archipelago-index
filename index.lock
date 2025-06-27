@@ -717,6 +717,9 @@
 [spire]
 "2.0.2" = "2ff78a4a561979e43b3a27a3d9b3489980fc56f8bea3f8f62d6f8d5cbed7acde"
 
+[spyro3]
+"0.2.3" = "05aeb14ba48a805f4b77d6ec6d78b3ddab5ef4398e1304296f43a006180cbd48"
+
 [star_fox_64]
 "0.4.1" = "6afffee141a3c4e9c1656de90c57af3c2ee926591cb24c6fa858168f5ad8e51c"
 
