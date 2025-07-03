@@ -1,0 +1,3 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Filler] (group_name='Filler', game_name='Manual_RobloxForsaken_Cocobird24')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
