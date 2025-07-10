@@ -678,6 +678,7 @@
 "0.1.1-prealpha" = "7c71eceed46df04701c5cd8ef91fc0a6f2b81a839aa5bd7e6b6f20a10a090a05"
 "0.1.5-prealpha" = "ca3427aefc94cb1f033b04680bb85985a308596fcf135acc66a54417b6cfe786"
 "0.1.7-prealpha" = "5df7ebe2ce74eb01157d8d675385bd3be1b13e8963fc3bcc5dc924d8337082e6"
+"0.1.8-prealpha" = "3be9724ef626eff9ca9ee2954a958141948c6eab167ec48f3e54a2ac3a2e3974"
 
 [shadow_the_hedgehog]
 "0.0.8" = "a5d9ce0a8db01d7bd1d0e47f45c65e60c10ce96390de87fd1eba06fb506c96cd"
