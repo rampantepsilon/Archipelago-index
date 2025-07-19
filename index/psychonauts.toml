@@ -4,3 +4,4 @@ default_url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/relea
 
 [versions]
 "0.7.0" = {}
+"0.8.0" = {}
