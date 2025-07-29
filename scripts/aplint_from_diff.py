@@ -25,5 +25,7 @@ for diff_file in os.scandir(sys.argv[1]):
         with tempfile.TemporaryDirectory() as dest:
             for version_diff in diff["diffs"]:
                 _, version = version_diff.split('...')
+                if not version:
+                    continue
                 file = download_apworld(apworld_name, version, dest)
                 aplinter.lint(file, output)
