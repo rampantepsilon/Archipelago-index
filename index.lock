@@ -110,6 +110,9 @@
 [crystal_project]
 "0.7.0" = "0eefbbcd79b57dd03fcec98f733a82e0a39e6f037b086f3838b52e95982ccbf1"
 
+[cuphead]
+"0.0.2-alpha+b" = "82408fec48204c076175d6711bae5c204b516bb087a955864f9324ed737d94da"
+
 [cvhodis]
 "0.2.0-hf" = "11dc53479aa7abd3eea99a1974c04ec0194b5eebd4416f741804a7a03a4cf0ff"
 
