@@ -85,3 +85,59 @@ __version__ = ">=1.0.4"
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='NewGamePlus')"]]
 __expected__ = "error"
 __version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Treasure_Locations')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Cratesanity')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Animalsanity')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Memosanity')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Weapons')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Sidequests')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Upgrades')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Exclusives')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Infinite_Launcher')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Chicago_Typewriter')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='PRL_412')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Separate_Ways')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Mercenaries_Mode')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='New_Game_Plus')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
