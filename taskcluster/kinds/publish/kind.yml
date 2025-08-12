@@ -46,7 +46,7 @@ tasks:
         if [[ -f /tmp/expectations.patch ]]; then
           patch -p1 < /tmp/expectations.patch
           git add meta
-          git commit -am "Update expectations"
+          (git commit -am "Update expectations" || exit 0)
         fi
 
         (git cherry-pick "${UPDATE_COMMIT}" || exit 0)
