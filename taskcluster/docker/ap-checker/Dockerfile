@@ -14,8 +14,11 @@ RUN apt update && apt install -y git jq zip
 RUN mkdir -p /builds && \
     useradd -d /builds/worker -s /bin/bash -m worker && \
     mkdir /builds/worker/artifacts && \
+    mkdir /builds/worker/checkouts && \
     chown -R worker:worker /builds/worker /ap/archipelago
 
 ENV SHELL=/bin/bash \
     HOME=/builds/worker \
     PATH=/builds/worker/.local/bin:$PATH
+
+VOLUME /builds/worker/checkouts
