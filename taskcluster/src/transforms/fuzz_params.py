@@ -27,7 +27,7 @@ def fuzz_params(config, tasks):
                 break
 
     dupe_with_empty = False
-    if raw_params is None:
+    if not raw_params:
         raw_params = "-r 5000 -n 1"
         dupe_with_empty = True
 
