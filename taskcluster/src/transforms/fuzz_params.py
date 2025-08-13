@@ -48,7 +48,9 @@ def fuzz_params(config, tasks):
         yield copy.deepcopy(task)
 
         if dupe_with_empty:
-            task["label"] += "-no-restrictive-starts"
+            apworld_name = task["attributes"]["apworld_name"]
+            version = task["attributes"]["version"]
+            task["label"] = f"fuzz-no-restrictive-starts-{apworld_name}-{version}"
 
             env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
 
