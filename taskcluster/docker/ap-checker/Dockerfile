@@ -21,4 +21,3 @@ ENV SHELL=/bin/bash \
     HOME=/builds/worker \
     PATH=/builds/worker/.local/bin:$PATH
 
-VOLUME /builds/worker/checkouts
