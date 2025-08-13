@@ -50,6 +50,6 @@ def fuzz_params(config, tasks):
         if dupe_with_empty:
             task["label"] += "-no-restrictive-starts"
 
-        env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
+            env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
 
-        yield task
+            yield task
