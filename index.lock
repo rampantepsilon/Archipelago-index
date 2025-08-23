@@ -147,6 +147,9 @@
 [fnafw]
 "0.0.3" = "83acad43401cf4abc31eceaff657f8f7ef6651de7fb31bda9e17e84d8b0176f2"
 
+[frogmonster]
+"0.2.1" = "dc57b6e4b38a1c5533f43fec7a5e492e30065f1495e2baa43a9ef04111c2fac9"
+
 [gl]
 "1.7.1" = "edf6eed960fa11bf3da975cb529c656067bc1ee09b85aeba529e1a00ddb17b64"
 
