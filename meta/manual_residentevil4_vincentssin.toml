@@ -141,3 +141,31 @@ __version__ = ">=1.2.0"
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='New_Game_Plus')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Herb_Locations')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Herb_Locations')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Treasure_Locations')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Cratesanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Animalsanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Ammosanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Ammosanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.0"
