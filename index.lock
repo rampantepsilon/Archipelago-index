@@ -129,6 +129,7 @@
 [doronko_wanko]
 "0.3.0" = "6d7447ea7c9076ba1f815abd1c1cbb722aa594ceaca9823b72d9ea822bb7b358"
 "0.3.1" = "4b5fa9f5d1d35b847fdfea3d7e60207b75d3cc0077efce456eceffe723a8313f"
+"0.3.2" = "4b5fa9f5d1d35b847fdfea3d7e60207b75d3cc0077efce456eceffe723a8313f"
 
 [earthbound]
 "4.2.1" = "8a5acf5f117a4b0c9c5d29ed8853e32b9245fe2a3856e0b58684ef41604e53fa"
