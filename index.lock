@@ -219,6 +219,7 @@
 
 [into_the_breach]
 "0.15.15" = "9f1777dcb1400e5d7d36aa92a71c23d75f3e9425c3bf1defd8b475325ad4de2a"
+"0.15.17" = "504e2de0c4c06c40f760851c29f533a98bedc9624c625802fd8bdc1306fbc033"
 
 [ittle_dew_2]
 "0.2.1+region-gates" = "a581bab68d122a6810dbb7e77901055fccc2b1850326f4af9d39f96ea2dc49fb"
