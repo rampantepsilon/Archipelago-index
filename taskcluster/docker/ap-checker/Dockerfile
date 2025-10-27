@@ -1,4 +1,4 @@
-FROM ghcr.io/eijebong/apwm:latest as apwm
+FROM ghcr.io/eijebong/apwm:ci-748 as apwm
 
 FROM ghcr.io/eijebong/archipelago-worker:latest
 
